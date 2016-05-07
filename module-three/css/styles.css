@@ -1,0 +1,77 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: #8b9dc3;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.7em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #3b5998;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Poiret One';
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+.content {
+  font-family: 
+  font-size: 1.3em;
+  background-color: white;
+  color: #8b9dc3;
+  border-radius: 7px;
+  height: 1000px;
+  padding: 4%;
+}
+
+/********** desktop view **********/
+@media (min-width: 992px) {
+  .row {
+    margin: 5%;
+  }
+}
+
+/********** tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .row {
+    margin: 5%;
+  }
+}
+
+/********** mobile view **********/
+@media (max-width: 767px) {
+  .row {
+    margin: 5%;
+  }
+}
